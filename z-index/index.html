@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <style>
+      .box {
+        background-color: #fff;
+        z-index:1100;
+        position: absolute;
+      }
+      #n-1 {
+        top: 15px;
+        left: 15px;
+        position: absolute;
+        width: 180px;
+        height: 230px;
+        border: solid 5px #e3e0a1;
+        background-color: #fcfbe5;
+      }
+      .red {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        background-color: #fce5e7;
+        border: solid 5px #e3a1a7;
+      }
+      .blue {
+        width: 200px;
+        height: 300px;
+        background-color: #e5e8fc;
+        border: solid 5px #112382;
+      }
+      .pos1 {
+        top: 150px;
+      }
+      .pos2 {
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="red"> </div>
+      <div class="blue pos2"> </div>
+      <div id="n-1"></div>
+    </div>
+    <div class="box">
+      <div class="red pos1"></div>
+    </div>
+  </body>
+</html>
